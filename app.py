@@ -8,15 +8,13 @@ def multiply(x, y):
 
 
 def divide(x, y):
-    beta = 0  # Cette variable n'est pas utilisée, tu peux la supprimer si inutile
     if y != 0:
         return x / y
+    return "Erreur : division par zéro"  # Ajout d'un return en cas de division par zéro
 
 
 def greet(name):
     # GREET FUNCTION
     if name == "":
         return "Hello, World!"
-    else:
-        return "Hello, " + name
-
+    return "Hello, " + name
